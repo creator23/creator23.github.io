@@ -40,8 +40,8 @@ h2{
 #content{
 				padding-left:50px;
 				padding-right:50px;
-				padding-top:20px;
-				padding-bottom:20px;
+				padding-top:30px;
+				padding-bottom:30px;
 				line-height:20px;
 				letter-spacing:2px;
 }
@@ -80,6 +80,15 @@ h3{
 			
 			}
 .course {
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#f04;
+				color:white;
+				font-weight:bold;
 	width: 30%;
 	display:inline-block;
 }
