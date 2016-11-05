@@ -81,7 +81,7 @@ h3{
 			}
 .course {
 	width: 30%;
-	float: left;
+	display:inline-block;
 }
 #courses {
 		font-size:1.0em;
