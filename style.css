@@ -1,0 +1,112 @@
+body{
+	background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+font-family: Gotham,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+}
+
+#title{
+position: relative;
+    width: 100%;
+    background-color: #0E0B16;
+    height: 100px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    border-bottom: 1px solid #444;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+#title p{
+font-size: 1.0em;
+color: #8c8c8c;
+text-align: center;
+}
+
+h2{
+	font-weight: normal;
+	font-size: 3.0em;
+}
+
+* {margin:0;padding:0;font-weight: normal}
+
+#content{
+				padding-left:50px;
+				padding-right:50px;
+				padding-top:20px;
+				padding-bottom:20px;
+				line-height:20px;
+				letter-spacing:2px;
+}
+
+b{
+	color:#f34848;
+}
+#aboutme{
+	font-size:1.0em;
+	margin: 0px auto;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #222;
+    opacity: 0.8;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: white;
+    width: 75%;
+}
+
+h3{
+	font-size: 2.0em;
+	text-align:center;
+	color: #C0FFFF;
+}
+
+#aboutme:hover {
+				cursor:pointer;
+				background-color:#131313;
+				border: 1px;
+				border-color: #404040;
+			
+			}
+.course {
+	width: 30%;
+	float: left;
+}
+#courses {
+		font-size:1.0em;
+	margin: 0px auto;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #222;
+    opacity: 0.8;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: white;
+    width: 75%;
+}
+
+#courses h5{
+	font-size:1.2em;
+}
+#courses:hover {
+				cursor:pointer;
+				background-color:#131313;
+				border: 1px;
+				border-color: #404040;
+			
+			}
