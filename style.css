@@ -40,8 +40,8 @@ h2{
 #content{
 				padding-left:50px;
 				padding-right:50px;
-				padding-top:20px;
-				padding-bottom:20px;
+				padding-top:30px;
+				padding-bottom:30px;
 				line-height:20px;
 				letter-spacing:2px;
 }
@@ -80,10 +80,19 @@ h3{
 			
 			}
 .course {
-	width: 30%;
-	float: left;
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#5f0016;
+				color:white;
+				font-weight:bold;
+	width: 200px;
+	display:inline-block;
 }
-#courses {
+#courses, #projects {
 		font-size:1.0em;
 	margin: 0px auto;
 	background-attachment: fixed;
@@ -92,7 +101,7 @@ h3{
     background-color: #222;
     opacity: 0.8;
     padding: 5px;
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
     margin-bottom: 20px;
     word-wrap: break-word;
@@ -100,8 +109,99 @@ h3{
     width: 75%;
 }
 
-#courses h5{
+#skills,#contact, #jobs {
+		font-size:1.0em;
+	margin: 0px auto;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #222;
+    opacity: 0.8;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: white;
+    width: 75%;
+}
+#skills:hover, #projects:hover, #jobs:hover, #contact:hover {
+				cursor:pointer;
+				background-color:#131313;
+				border: 1px;
+				border-color: #404040;
+			
+			}
+
+#courses h5, #skills h4{
 	font-size:1.2em;
+}
+
+.text {
+	padding:10px;
+}
+.language, .OS, .tool{
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#5f0016;
+				color:white;
+				font-weight:bold;
+	width: 200px;
+}
+
+.languageless {
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#5f0016;
+				color:white;
+				font-weight:bold;
+	width: 100px;
+}
+
+.project,.work {
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#374056;
+				color:white;
+				font-weight:bold;
+	width: 80%;
+}
+.project p{
+	text-align: left;
+}
+a {
+	color:white;
+}
+
+.work h4{
+	font-size: 1.1em;
+	text-align:center;
+	color: #C0FFFF;
+	display:inline-block;
+
+}
+.work h5{
+	display: inline-block;
+	text-align:center;
+	font-size: 0.9em;
+}
+.project h4 {
+	font-size: 1.3em;
+	text-align:center;
+	color: #C0FFFF;
+	text-decoration: underline;
 }
 #courses:hover {
 				cursor:pointer;
