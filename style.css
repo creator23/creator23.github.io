@@ -137,6 +137,9 @@ h3{
 	font-size:1.2em;
 }
 
+#text {
+	padding:10px;
+}
 .language, .OS, .tool{
 				border:0px dashed #424242;
 				opacity:1;
