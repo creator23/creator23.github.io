@@ -166,7 +166,7 @@ h3{
 	width: 100px;
 }
 
-.project {
+.project,.work {
 				border:0px dashed #424242;
 				opacity:1;
 				border-radius:10px;
