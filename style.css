@@ -178,6 +178,9 @@ h3{
 				font-weight:bold;
 	width: 80%;
 }
+.project p{
+	text-align: left;
+}
 a {
 	color:white;
 }
