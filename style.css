@@ -79,7 +79,7 @@ h3{
 				border-color: #404040;
 			
 			}
-.course, .project {
+.course {
 				border:0px dashed #424242;
 				opacity:1;
 				border-radius:10px;
@@ -148,10 +148,22 @@ h3{
 				color:white;
 				font-weight:bold;
 	width: 200px;
-	display:inline-block;
 }
 
 .languageless {
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:block;
+				margin:10px;
+				background-color:#5f0016;
+				color:white;
+				font-weight:bold;
+	width: 100px;
+}
+
+.project {
 				border:0px dashed #424242;
 				opacity:1;
 				border-radius:10px;
@@ -161,10 +173,8 @@ h3{
 				background-color:#5f0016;
 				color:white;
 				font-weight:bold;
-	width: 100px;
-	display:inline-block;
+	width: 80%;
 }
-
 
 #courses:hover {
 				cursor:pointer;
