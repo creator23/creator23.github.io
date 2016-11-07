@@ -79,7 +79,7 @@ h3{
 				border-color: #404040;
 			
 			}
-.course {
+.course, .project {
 				border:0px dashed #424242;
 				opacity:1;
 				border-radius:10px;
@@ -92,7 +92,7 @@ h3{
 	width: 200px;
 	display:inline-block;
 }
-#courses {
+#courses, #projects {
 		font-size:1.0em;
 	margin: 0px auto;
 	background-attachment: fixed;
@@ -137,7 +137,7 @@ h3{
 	font-size:1.2em;
 }
 
-.language, .OS{
+.language, .OS, .tool{
 				border:0px dashed #424242;
 				opacity:1;
 				border-radius:10px;
