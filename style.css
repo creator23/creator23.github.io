@@ -125,7 +125,7 @@ h3{
     color: white;
     width: 75%;
 }
-#skills:hover {
+#skills:hover, #projects:hover, #jobs:hover, #contact:hover {
 				cursor:pointer;
 				background-color:#131313;
 				border: 1px;
@@ -183,6 +183,19 @@ h3{
 }
 a {
 	color:white;
+}
+
+.job h4{
+	font-size: 1.1em;
+	text-align:center;
+	color: #C0FFFF;
+	display:inline-block;
+
+}
+.job h5{
+	display: inline-block;
+	text-align:center;
+	font-size: 0.9em;
 }
 .project h4 {
 	font-size: 1.3em;
