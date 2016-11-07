@@ -109,7 +109,7 @@ h3{
     width: 75%;
 }
 
-#skills {
+#skills,#contact, #jobs {
 		font-size:1.0em;
 	margin: 0px auto;
 	background-attachment: fixed;
