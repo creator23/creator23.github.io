@@ -137,7 +137,7 @@ h3{
 	font-size:1.2em;
 }
 
-#text {
+.text {
 	padding:10px;
 }
 .language, .OS, .tool{
@@ -173,7 +173,7 @@ h3{
 				padding:10px;
 				display:inline-block;
 				margin:10px;
-				background-color:#5f0016;
+				background-color:#374056;
 				color:white;
 				font-weight:bold;
 	width: 80%;
@@ -188,6 +188,7 @@ a {
 	font-size: 1.3em;
 	text-align:center;
 	color: #C0FFFF;
+	text-decoration: underline;
 }
 #courses:hover {
 				cursor:pointer;
