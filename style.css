@@ -109,9 +109,63 @@ h3{
     width: 75%;
 }
 
+#skills {
+		font-size:1.0em;
+	margin: 0px auto;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #222;
+    opacity: 0.8;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: white;
+    width: 75%;
+}
+#skills:hover {
+				cursor:pointer;
+				background-color:#131313;
+				border: 1px;
+				border-color: #404040;
+			
+			}
+
 #courses h5{
 	font-size:1.2em;
 }
+
+.language, .OS{
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#5f0016;
+				color:white;
+				font-weight:bold;
+	width: 200px;
+	display:inline-block;
+}
+
+.languageless {
+				border:0px dashed #424242;
+				opacity:1;
+				border-radius:10px;
+				padding:10px;
+				display:inline-block;
+				margin:10px;
+				background-color:#5f0016;
+				color:white;
+				font-weight:bold;
+	width: 100px;
+	display:inline-block;
+}
+
+
 #courses:hover {
 				cursor:pointer;
 				background-color:#131313;
