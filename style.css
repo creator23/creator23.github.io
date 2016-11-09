@@ -192,7 +192,7 @@ a {
 	display:inline-block;
 
 }
-.work p {
+.work p, .work ul, .work li{
 	text-align: left;
 }
 .work h5{
