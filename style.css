@@ -192,6 +192,9 @@ a {
 	display:inline-block;
 
 }
+.work p {
+	text-align: left;
+}
 .work h5{
 	display: inline-block;
 	text-align:center;
