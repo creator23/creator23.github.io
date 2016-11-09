@@ -199,6 +199,7 @@ a {
 	display: inline-block;
 	text-align:center;
 	font-size: 0.9em;
+	padding-right: 20px;
 }
 .project h4 {
 	font-size: 1.3em;
