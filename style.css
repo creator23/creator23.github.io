@@ -7,7 +7,7 @@ radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
 radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
 background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-font-family: Gotham,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+font-family: Avenir, "Open Sans", Gotham,"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
 }
 
 #title{
@@ -133,6 +133,30 @@ h3{
 			
 			}
 
+#skills,#contact, #jobs {
+		font-size:1.0em;
+	margin: 0px auto;
+	background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #222;
+    opacity: 0.8;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    color: white;
+    width: 75%;
+}
+#skills:hover, #projects:hover, #jobs:hover, #contact:hover {
+				cursor:pointer;
+				background-color:#131313;
+				border: 1px;
+				border-color: #404040;
+			
+			}
+
 #courses h5, #skills h4{
 	font-size:1.2em;
 }
@@ -186,16 +210,22 @@ a {
 }
 
 .work h4{
-	font-size: 1.1em;
+	font-size: 1.4em;
 	text-align:center;
 	color: #C0FFFF;
 	display:inline-block;
 
 }
+.work p{
+	text-align: left;
+}
+
 .work h5{
 	display: inline-block;
 	text-align:center;
 	font-size: 0.9em;
+	padding-right: 20px;
+	color: #55ff89;
 }
 .project h4 {
 	font-size: 1.3em;
